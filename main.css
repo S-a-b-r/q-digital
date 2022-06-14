@@ -44,6 +44,15 @@ body, html, div{
 .btn-ready:hover{
     background-color: #3ffd81;
 }
+.btn-unready{
+    padding: 8px;
+    background-color: #f0ff6e;
+    border-radius: 5px;
+    border: 1px solid #656565;
+}
+.btn-unready:hover{
+    background-color: #c8df00;
+}
 
 .btn-delete{
     padding: 8px;

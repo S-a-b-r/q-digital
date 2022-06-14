@@ -13,6 +13,7 @@ class Router
             case 'remove_all': return $app->removeAll();
             case 'ready_all': return $app->readyAll();
             case 'ready_task': return $app->readyTask($params);
+            case 'unready_task': return $app->unreadyTask($params);
             case 'delete_task': return $app->deleteTask($params);
         }
     }

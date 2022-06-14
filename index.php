@@ -38,6 +38,7 @@
                             </div>
                             <div class='task-btn-wrapper'>
                                 <button class='btn-ready' name='action' value='ready_task'>Ready</button>
+                                <button class='btn-unready' name='action' value='unready_task'>Unready</button>
                                 <button class='btn-delete' name='action' value='delete_task'>Delete</button>
                             </div>
                         </div>

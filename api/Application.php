@@ -38,6 +38,14 @@ class Application
         }
         echo 'Что-то пошло не так';
     }
+    public function unreadyTask($params){
+        if($this->validator->validateTaskReady($params)){
+            $id_task = $params['id_task'];
+            $_SESSION['tasks'][$id_task]['status'] = self::STATUS_UNREADY;
+            header('Location: /index.php');
+        }
+        echo 'Что-то пошло не так';
+    }
 
     public function removeAll(){
         $_SESSION['tasks'] = [];
