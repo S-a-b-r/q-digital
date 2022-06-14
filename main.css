@@ -1,0 +1,82 @@
+body, html, div{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 40%;
+    margin:10px auto;
+    background-color: #c0e1fe;
+    border-radius: 5px;
+    padding: 10px;
+}
+.title{
+    text-align: center;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+
+}
+/*New task*/
+.new-task-wrapper{
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid black;
+
+}
+.new-task-buttons{
+    margin-top: 10px;
+}
+.btn-add-task{
+    margin-left: 5px;
+    background-color: #299efd;
+    padding: 8px;
+    border-radius: 5px;
+}
+.btn-add-task:hover{
+    background-color: #0079dd;
+}
+.btn-ready{
+    padding: 8px;
+    background-color: #90ffb7;
+    border-radius: 5px;
+    border: 1px solid #656565;
+}
+.btn-ready:hover{
+    background-color: #3ffd81;
+}
+
+.btn-delete{
+    padding: 8px;
+    background-color: #ff4a4a;
+    border-radius: 5px;
+    border: 1px solid #656565;
+}
+.btn-delete:hover{
+    background-color: #fd2929;
+}
+
+/*List tasks*/
+.task-wrapper{
+    margin:10px;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid black;
+}
+.task-container{
+    width: 80%;
+}
+.task-status{
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    border-radius: 180px;
+}
+.task-text{
+    font-size: 18px;
+}
+.task-btn-wrapper{
+    margin-top:10px
+}
